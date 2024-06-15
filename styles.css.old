@@ -42,13 +42,13 @@ nav a {
     text-align: center;
 }
 
-.services, .team {
+.services {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
 }
 
-.service, .member {
+.service {
     flex: 1;
     padding: 1rem;
     margin: 1rem;
@@ -72,8 +72,8 @@ footer {
         background-color: var(--dark-background-color);
         color: var(--dark-text-color);
     }
-    .service, .member {
+    .service {
         background-color: #1e1e1e;
         color: var(--dark-text-color);
     }
-}   
+}
